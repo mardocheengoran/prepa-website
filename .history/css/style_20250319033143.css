@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+}
+
+iframe footer {
+    background-color: black;
+    color: white;
+}
+
+iframe {
+    width: 100%;
+    display: block;
+}
+
+/* Appliquer les styles du parent à l'intérieur de l'iframe */
+iframe body,
+iframe header {
+    font-family: inherit;
+    color: inherit;
+    background: inherit;
+    background-color: ivory;
+}

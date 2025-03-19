@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accueil</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="root" data-content="header.html"></div>
+    <div class="root2" data-content="footer.html"></div>
+    <script>
+        const root = document.querySelector('.root')
+        const link = root.dataset.content;
+
+        fetch(link)
+            .then(function (response) {
+                return response.text();
+            })
+            .then(function (html) {
+                root.innerHTML = html;
+            });
+    </script>
+
+</body>
+
+</html>
