@@ -5,6 +5,7 @@
 body {
     margin: 0;
     font-family: "nunito", serif;
+    background-color: rgb(119, 132, 144);
 }
 
 header {
@@ -32,13 +33,13 @@ embed {
 }
 
 .keej-prs img {
-    border-radius: 20px;
+    border-radius: 25px;
 }
 
 .keej-text {
     font-size: 16px;
     padding: 40px;
     box-shadow: 3px;
-    border-radius: 20px;
+    border-radius: 25px;
     background-color: rgb(174, 173, 173);
 }
