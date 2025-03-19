@@ -18,3 +18,19 @@ embed {
     width: 100%;
     display: block;
 }
+.ndmpcontainer{
+    max-width: 90%;
+    background-color: beige;
+
+}
+.maphoto{
+   display: flex;
+}
+.description{
+    margin-top: 15px;
+    color: goldenrod;
+    margin-left: 10px;
+}
+.img1{
+    margin-left: 25px;
+}
