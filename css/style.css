@@ -1,44 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Varela+Round&display=swap');
 body {
     margin: 0;
     font-family: "Varela Round", sans-serif;
-}
-.yode-container {
-    display: flex;
-    align-items: center;
-    justify-content: start;
-    width: 50%;
-    margin: 50px auto;
-    background: white;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-    background: linear-gradient(120deg, #84fab0, #8fd3f4,#fad0c4);
-
-}
-
-.photo-yode {
-    width: 155px;
-    height: 160px;
-    border-radius: 60%;
-    object-fit: cover;
-    margin-right: 20px;
-    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.3);
-}
-
-.yode-description {
-    width: 500px;
-}
-
-.yode-titre h2 {
-    margin: 0;
-    font-weight: 600;
+    background-color: #f5f5f5;
     color: #333;
 }
-
-.desc-yode p {
-    color:#333;
-    font-size: 16px;
+ 
+ header {
+    background: linear-gradient(to right, #000000, #434343);
+    color: white;
+    width: 100%;
+    padding: 20px 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
-.ifran{
-    color:crimson;
+embed {
+    width: 100%;
+    display: block;
+}
+ 
+ .container {
+     display: flex;
+     width: 90%;
+     max-width: 1200px;
+     gap: 30px;
+     justify-content: center;
+     flex-wrap: wrap;
+     margin: 0 auto;
+     padding: 20px;
+ }
+ 
+ /* Style pour les cartes d'étudiants */
+ .container > div {
+     background: white;
+     border-radius: 15px;
+     padding: 20px;
+     text-align: center;
+     transition: transform 0.3s ease;
+     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+ }
+ 
+ .container > div:hover {
+     transform: translateY(-5px);
+ }
+ 
+ .container img {
+     border-radius: 50%;
+     object-fit: cover;
+     transition: transform 0.3s ease;
+ }
+ 
+ .container img:hover {
+     transform: scale(1.05);
+ }
+ 
+ figcaption {
+     margin-top: 10px;
+     font-weight: 600;
+     color: #333;
+ }
+ 
+ figcaption:last-child {
+     color: #666;
+     font-size: 0.9em;
+ }
+ footer {
+    background: linear-gradient(to right, #000000, #434343);
+    color: white;
+    width: 100%;
+    padding: 30px 0;
+    margin-top: 40px;
 }
