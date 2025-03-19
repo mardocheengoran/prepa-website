@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Varela+Round&display=swap');
 body {
     margin: 0;
+    font-family: "Varela Round", sans-serif;
 }
 
 header {
@@ -17,4 +19,50 @@ footer {
 embed {
     width: 100%;
     display: block;
+}
+
+.container {
+    display: flex;
+    width: 90%;
+    max-width: 1200px;
+    gap: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Style pour les cartes d'étudiants */
+.container > div {
+    background: white;
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.container > div:hover {
+    transform: translateY(-5px);
+}
+
+.container img {
+    border-radius: 50%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.container img:hover {
+    transform: scale(1.05);
+}
+
+figcaption {
+    margin-top: 10px;
+    font-weight: 600;
+    color: #333;
+}
+
+figcaption:last-child {
+    color: #666;
+    font-size: 0.9em;
 }
