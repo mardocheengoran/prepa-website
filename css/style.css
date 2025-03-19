@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    
 }
 
 header {
@@ -17,4 +18,102 @@ footer {
 embed {
     width: 100%;
     display: block;
+}
+
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+kpn-body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f9f8;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container .kpn {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.kpn-prii {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.kpn-profile img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #007bff;
+    margin-bottom: 20px;
+}
+
+.kouadioprii {
+    font-size: 2.5rem;
+    color: #007bff;
+    margin-bottom: 10px;
+}
+
+.kpn-tag{
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.kpn-bio {
+    font-size: 1rem;
+    color: #444;
+    max-width: 600px;
+    margin-bottom: 30px;
+}
+
+.prii, .contact {
+    margin-bottom: 30px;
+}
+
+.prii h2, .contact h2 {
+    font-size: 1.5rem;
+    color: #007bff;
+    margin-bottom: 10px;
+}
+
+.prii ul {
+    list-style-type: none;
+}
+
+.prii ul li {
+    background-color: #007bff;
+    color: #fff;
+    display: inline-block;
+    padding: 5px 15px;
+    margin: 5px;
+    border-radius: 20px;
+    font-size: 0.9rem;
+}
+
+.contact p {
+    font-size: 1rem;
+    color: #444;
+    margin-bottom: 10px;
+}
+
+.contact a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.contact a:hover {
+    text-decoration: underline;
 }
