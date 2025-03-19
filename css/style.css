@@ -18,3 +18,63 @@ embed {
     width: 100%;
     display: block;
 }
+.vkacontainer{
+    max-width: 930px;
+    margin: 0 auto;
+    padding: 0 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.vkamonimg{
+    width: 50%;
+    margin-left: -280px;
+    border-radius: 28px;
+    border: 10px solid #aaaa;
+}
+.vkamabio{
+    margin-left: 670px;
+    border: 3px solid #aaaa;
+    border-radius: 9px;
+    background-color: goldenrod;
+    width: 700px;
+    position: absolute;
+    top: 78px;
+    padding: 70Px;
+    
+}
+.vkapbio{
+    background-color: bisque;
+}
+.vkacard {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    text-align: center;
+}
+.vkacard h2 {
+    color: #333;
+}
+.vkacard p {
+    color: #555;
+}
+.vkalanguages {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 15px;
+}
+.vkalang {
+    background: goldenrod;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: 0.3s;
+}
+.vkalang:hover {
+    background: #0056b3;
+}
