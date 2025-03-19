@@ -1,12 +1,74 @@
-body {
-    margin: 0;
+@import url('https://fonts.googleapis.com/css2?family=Bytesized&family=Coda:wght@400;800&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Varela+Round&display=swap');
+
+
+
+
+.container{
+    width: 1300px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    
 }
 
-header {
-    background-color: black;
-    color: white;
-    width: 100%;
+.body{
+    margin: 0;
+    padding: 0;
 }
+.header {
+    box-shadow: 0px 4px  5px #ddd ;
+    display: flex;
+    font-family: "Bytesized", sans-serif;
+
+   
+}
+.h1 a{
+    text-decoration: none;
+}
+h1{
+    margin-right: 40px;
+}
+
+.nav-links{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+
+.nav-links a{
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    transition: ease 0.5s;
+}
+.nav-links a:hover{
+    color: rgb(218, 16, 218);
+}
+.button{
+    display: flex;
+    gap: 10px;
+    margin-left: 150px;
+}
+.button i{
+    margin-top: 10px;
+    cursor: pointer;
+}
+.link1{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(218, 16, 218);
+    padding: 10px;
+    border-radius: 20px;
+    transition: ease-in-out 0.4s;
+}
+
+.link1:hover{
+    background-color: rgb(218, 16, 218);
+    transform: rotate(-3deg);
+}
+
 
 footer {
     background-color: black;
@@ -18,3 +80,4 @@ embed {
     width: 100%;
     display: block;
 }
+
