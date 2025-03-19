@@ -41,7 +41,7 @@ embed {
     font-size: 30px;
     margin-left: 20px;
     background: rgb(95, 143, 189);
-    padding: 20px;
+    padding: 50px;
     border-radius: 12px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: left;
@@ -51,6 +51,9 @@ embed {
 .eaa{
     width: 600px;
     filter: grayscale(100%);
+    margin-top: 30px;
+    text-align: center;
+    
     
 }
 .eaa:hover{
