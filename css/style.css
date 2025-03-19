@@ -18,3 +18,71 @@ embed {
     width: 100%;
     display: block;
 }
+
+.kynd-container{
+    max-width: 1200px;
+    margin: 0 auto;
+   gap: 40px;
+    display: flex;
+    align-items: center;
+    
+}
+.kynd-title{
+        background: linear-gradient(to right, #13c4b5, #de3e0e);
+        font-size: 40px;
+        background-clip: text;
+        color: transparent;
+}
+.kynd{
+    width: 350px;
+    filter: grayscale(100%);
+    transition: 0.8s;
+    
+}
+.kynd:hover{
+    filter: grayscale(0%);
+    transition: 0.8s;
+}
+.kynd-title{
+    padding: 5px 5px;
+    text-decoration: none;
+    box-shadow: 0px 0px 20px rgb(55, 163, 209);
+    border-radius: 15px;
+    display: inline-block;
+}
+.kynd-title:hover{
+    background-color: #3b82f6;
+    transition: 0.3s ease-in;
+    transform: rotate(5deg) scale(1.1);
+
+}
+
+
+.kynd-paragraphe{
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+
+}
+
+.kynd-paragraphe i {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.kynd-paragraphe h3 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.kynd-paragraphe p {
+    font-size: 14px;
+    color: #666;
+}
+.kynd-paragraphe:hover{
+    background-color: rgb(97, 69, 74);
+    color: rgb(249, 249, 252);
+    border-radius:5PX;
+}
