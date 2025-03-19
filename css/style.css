@@ -18,3 +18,12 @@ embed {
     width: 100%;
     display: block;
 }
+.kcm-present{
+    display: flex;
+}
+.kcm-name{
+    margin: 40px;
+    display: block;
+    border: 1px solid black;
+    background-color: whitesmoke;
+}
