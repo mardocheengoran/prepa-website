@@ -28,10 +28,13 @@ body {
 }
 
 .srm-bock{
-    background-color: cyan;
-    padding: 20px;
+    background-color: black;
+    padding: 10px;
     margin: 10px;
-    width: 100px;
+    width: 70px;
+    border-radius: 30px;
+    margin-left: 420px;
+    margin-top: -40px;
 }
 
 .srm-bock a{
@@ -45,6 +48,10 @@ body {
 }
 
 .srm-bock a:hover{
+    color: mediumpurple;
+}
+
+.srm-bock i:hover{
     color: mediumpurple;
 }
 
