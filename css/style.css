@@ -7,6 +7,12 @@ body {
     color: #333;
 }
 
+footer {
+    background-color: black;
+    color: white;
+    width: 100%;
+}
+
 embed {
     width: 100%;
     display: block;
@@ -21,7 +27,6 @@ embed {
     margin: 0 auto;
     padding: 20px;
 }
-
 /* Style pour les cartes d'étudiants */
 .container>div {
     background: white;
