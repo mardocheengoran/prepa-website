@@ -1,0 +1,99 @@
+body{
+    margin: 0;
+}
+.emmanuela-body{
+    font-family: "Dancing Script", cursive;
+    background: linear-gradient(to right, #92A8D1,#fff, #f3a7b9);
+}
+.emmanuela-container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 30px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+
+.emmanuela-profile {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.emmanuela-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #92A8D1;
+    display: block;
+    margin: 0 auto;
+}
+.emmanuela-profile h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    color: #92A8D1;
+}
+
+.emmanuela-profile p {
+    font-size: 1.2em;
+    color: #f3a7b9; 
+}
+
+
+.emmanuela-about {
+    margin-bottom: 30px;
+}
+
+.emmanuela-about h2 {
+    font-size: 2em;
+    margin-bottom: 15px;
+    color: #92A8D1; 
+}
+
+.emmanuela-about p {
+    font-size: 1.1em;
+    line-height: 1.8;
+    color: #555;
+}
+
+.emmanuela-interests {
+    margin-bottom: 30px;
+}
+
+.emmanuela-interests h2 {
+    font-size: 2em;
+    margin-bottom: 15px;
+    color: #92A8D1; 
+}
+
+.emmanuela-interests ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.emmanuela-interests li {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+    color: #555;
+}
+
+.emmanuela-skills {
+    margin-bottom: 30px;
+}
+
+.emmanuela-skills h2 {
+    font-size: 2em;
+    margin-bottom: 15px;
+    color: #92A8D1;
+}
+
+.emmanuela-skills ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.emmanuela-skills li {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+    color: #555;
+}
