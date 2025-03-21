@@ -418,3 +418,121 @@ transition: 0.6s ease-in;
     color: rgb(249, 249, 252);
     border-radius:5PX;
 }
+
+kpn-body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f9f8;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container .kpn {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.kpn-prii {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.kpn-profile img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid purple;
+    box-shadow: #FF90A5 0 0 10px;
+    margin-bottom: 20px;
+}
+
+.kouadioprii {
+ background: linear-gradient(to right, rgb(174, 13, 174), #FF90A5);
+  background-clip: text;
+  color: transparent;
+  margin-bottom: 20px;
+  font-weight: bolder;
+  font-size: 2rem;
+}
+.kpn-icon {
+   color: rgb(135, 80, 255);
+    font-size: 1.rem;
+   
+}
+.kpn-tag{
+    font-size: 1.2rem;
+    color: goldenrod;
+    margin-bottom: 20px;
+}
+
+.kpn-bio {
+    font-size: 1rem;
+    color: #444;
+    max-width: 600px;
+    margin-bottom: 30px;
+}
+.prii .kpnstars {
+    background: linear-gradient(to right, rgb(174, 13, 174), #FF90A5);
+  background-clip: text;
+  color: transparent;
+  margin-bottom: 20px;
+  font-weight: bolder;
+  font-size: 1.7rem;
+}
+.prii, .contact {
+    margin-bottom: 30px;
+}
+
+.prii h2, .contact h2 {
+    font-size: 1.5rem;
+    color:#FF90A5 ;
+    margin-bottom: 10px;
+}
+
+.prii ul {
+    list-style-type: none;
+}
+
+.prii ul li {
+    background-color: #FF90A5;
+    color: #fff;
+    display: inline-block;
+    padding: 5px 15px;
+    margin: 5px;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    box-shadow: plum 0 0 10px;
+    
+}
+.ordi {
+    color: goldenrod;
+}
+
+.contact .kpn-tag {
+font-size: 1.2rem;
+color: goldenrod;
+margin-bottom: 25px;
+}
+
+.contact p {
+    font-size: 1rem;
+    color: #444;
+    margin-bottom: 12px;
+}
+
+.contact a {
+    color: #FF90A5;
+    text-decoration: none;
+}
+
+.contact a:hover {
+    text-decoration: underline;
+    color: palevioletred;
+}
