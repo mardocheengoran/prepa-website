@@ -362,3 +362,59 @@ embed {
     filter: grayscale(0%);
 transition: 0.6s ease-in;
 }
+
+
+.skj-container {
+    width: 1100px;
+    margin: 0 auto;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+  
+
+}
+.skj h1{
+    background: linear-gradient(to right, #5f6deb, #d73594);
+    font-size: 50px;
+    background-clip: text;
+    color: transparent;
+}
+.skj h1{
+    background-color: black;
+    box-shadow: 0px 0px 50px #3B83F6;
+    text-decoration: none;
+    border-radius: 15px;
+  }
+  .skj h1:hover{
+    transition: 0.2s ease-in;
+    transform: rotate(4deg) scale(1.1);
+  }
+
+.skj p{
+  font-size: 30px;
+}
+.skj-j{
+    filter: grayscale(100%);
+    transition: 0.8s; 
+}
+.skj-j:hover{
+    filter: grayscale(0%);
+    transition: 0.8s;
+}
+.jean{
+    background: white;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+   
+}
+
+.jean p {
+    font-size: 20px;
+    color: #666;
+}
+.jean:hover{
+    background-color: pink;
+    color: rgb(249, 249, 252);
+    border-radius:5PX;
+}
