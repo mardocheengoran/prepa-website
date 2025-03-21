@@ -17,8 +17,7 @@ body {
     border-radius: 10px;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
     background: linear-gradient(120deg, #84fab0, #8fd3f4,#fad0c4);
-
-}
+   }
 
 .photo-yode {
     width: 155px;
@@ -323,3 +322,45 @@ embed {
 .vkalang:hover {
     background: #0056b3;
 }
+.ess-container{
+    display: flex;
+}
+
+.ess h1{
+    background: linear-gradient(to right, #FD3C2D,#0C29FF);
+    font-size: 2.25rem;;
+    background-clip: text;
+    color: transparent;
+    margin-left: 20px;
+    text-align: center;
+    
+    
+    
+}
+  
+
+.ess p{
+    font-size: 30px;
+    margin-left: 20px;
+    background: rgb(95, 143, 189);
+    padding: 50px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+
+   
+}
+.eaa{
+    width: 600px;
+    filter: grayscale(100%);
+    margin-top: 30px;
+    text-align: center;
+    
+    
+}
+.eaa:hover{
+    filter: grayscale(0%);
+transition: 0.6s ease-in;
+}
+
+
