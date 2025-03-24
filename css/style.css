@@ -624,3 +624,19 @@ margin-bottom: 25px;
     border-radius: 25px;
     background-color: rgb(174, 173, 173);
 }
+.ndmpcontainer{
+    max-width: 90%;
+    background-color: beige;
+
+}
+.maphoto{
+   display: flex;
+}
+.description{
+    margin-top: 15px;
+    color: goldenrod;
+    margin-left: 10px;
+}
+.img1{
+    margin-left: 25px;
+}
