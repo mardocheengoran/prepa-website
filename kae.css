@@ -1,0 +1,64 @@
+.kou-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+
+.eli-content {
+    flex: 1;
+}
+
+.ang-title {
+    font-size: 48px;
+    line-height: 1.2;
+    margin-bottom: 30px;
+}
+
+.zero-title .blue {
+    color: #0057FF;
+}
+
+.zero-title .yellow {
+    color: #FFB800;
+}
+
+.zero-description {
+    font-size: 18px;
+    color: #4A4A4A;
+    margin-bottom: 40px;
+    line-height: 1.6;
+}
+
+.irie-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 40px;
+}
+
+.yue-item {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-size: 16px;
+}
+
+
+
+.zero-image {
+    flex: 1;
+    text-align: right;
+}
+
+.zero-image img {
+    max-width: 100%;
+    height: 800px;
+}
+
+.open{
+    border: 6px solid darkcyan;
+    border-radius: 60px;
+    background-color: goldenrod;
+    padding: 50px;
+}
