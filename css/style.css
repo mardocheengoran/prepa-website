@@ -36,6 +36,79 @@ body {
     margin: 0;
     font-weight: 600;
     color: #333;
+.srm-container{
+    background-color: dimgray;
+    padding: 20px;
+}
+
+.srm-track{
+    display: flex;
+    gap: 10px;
+}
+
+.srm-menu ul{
+    display: flex;
+}
+
+.srm-menu li{
+    list-style: none;
+}
+
+.srm-menu a{
+    color: white;
+    text-decoration: none;
+    margin-left: 150px;
+    font-size: 20px;
+}
+
+.srm-bock{
+    background-color: black;
+    padding: 10px;
+    margin: 10px;
+    width: 70px;
+    border-radius: 30px;
+    margin-left: 420px;
+    
+}
+
+.srm-bock a{
+    text-decoration: 20px;
+    font-size: 15px;
+    color: white;
+}
+
+.srm-bock i{
+    color: white;
+}
+
+.srm-bock a:hover{
+    color: mediumpurple;
+}
+
+.srm-bock i:hover{
+    color: mediumpurple;
+}
+
+.srm-menu a:hover{
+    color: cyan;
+}
+
+.srm-track img{
+    border-radius: 200px;
+}
+
+.srm-menu i{
+    color: white;
+}
+
+.srm-menu i:hover{
+    color: cyan;
+}
+
+header {
+    background-color: black;
+    color: white;
+    width: 100%;
 }
 
 footer {
