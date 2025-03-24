@@ -401,32 +401,28 @@ embed {
     color: transparent;
     margin-left: 20px;
     text-align: center;
-    
-    
-    
 }
-  
+.kynd-container{
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 40px;
+    display: flex;
+    align-items: center;
+}
 
 .ess p{
     font-size: 30px;
     margin-left: 20px;
     background: rgb(95, 143, 189);
     padding: 50px;
-
-.kynd-container{
-    max-width: 1200px;
-    margin: 0 auto;
-   gap: 40px;
-    display: flex;
-    align-items: center;
-    
-}
+} 
 .kynd-title{
         background: linear-gradient(to right, #13c4b5, #de3e0e);
         font-size: 40px;
         background-clip: text;
         color: transparent;
 }
+
 .kynd{
     width: 350px;
     filter: grayscale(100%);
@@ -682,7 +678,6 @@ margin-bottom: 25px;
 }
 .img1{
     margin-left: 25px;
-}
 }
 
 .kynd-paragraphe i {
